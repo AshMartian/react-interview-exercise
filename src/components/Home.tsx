@@ -28,7 +28,7 @@ const Home: React.FC = () => {
         const demoDistrictSearch = await searchSchoolDistricts("Peninsula School District")
         console.log("District example", demoDistrictSearch)
 
-        const demoSchoolSearch = await searchSchools(demoDistrictSearch[1].LEAID, "k")
+        const demoSchoolSearch = await searchSchools("k", demoDistrictSearch[1].LEAID)
         console.log("School Example", demoSchoolSearch)
     })()
     

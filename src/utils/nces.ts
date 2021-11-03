@@ -69,7 +69,7 @@ const searchSchoolDistricts = async (name:string):Promise<NCESDistrictFeatureAtt
     return combinedData;
 }
 
-const searchSchools = async (district:string, name:string):Promise<NCESSchoolFeatureAttributes[]> => {
+const searchSchools = async (name:string, district?:string):Promise<NCESSchoolFeatureAttributes[]> => {
     let privateSchoolEndpoint = `https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Private_School_Locations_Current/FeatureServer/0/query?where=UPPER(NAME) LIKE UPPER('%${name}%')${district ? `%20AND%20LEAID%20%3D%20'${district}'` : ""}&outFields=*&outSR=4326&f=json`;
     let publicSchoolEndpoint = `https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Location_201819/FeatureServer/0/query?where=UPPER(NAME) LIKE UPPER('%${name}%')${district ? `%20AND%20LEAID%20%3D%20'${district}'` : ""}&outFields=*&outSR=4326&f=json`;
     let combinedData = [];
