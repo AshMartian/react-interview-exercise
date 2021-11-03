@@ -39,7 +39,7 @@ The goal of this exercise is to build a prototype utility that gives users abili
 
 - CharacterStrong is highly design oriented, and aiming to provide students with animated interactive content. Show how you convey this in your UX. Reference https://rc.characterstrong.com for a glimpse into future design considerations.
 - There are issues with this repository, if you see something you don't like, add a comment/fix them!
-- Could you display school(s) on a [Google Map](https://tomchentw.github.io/react-google-maps/#introduction)? (API Key in utils/maps.ts)
+- Could you display school(s) on a [Google Map](https://tomchentw.github.io/react-google-maps/#introduction)? (API Key in [maps.ts](src/utils/maps.ts))
 - Are there any other [NCES APIs](https://data-nces.opendata.arcgis.com/search?tags=nces) that might be useful for this tool?(if so, integrate them)
 
 ## What Happens Next?
