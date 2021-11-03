@@ -31,6 +31,7 @@ The goal of this exercise is to build a prototype utility that gives users abili
 - Working out of [Home.tsx](/src/components/Home.tsx):
     - Add the needed React `useEffect` statements for district and school searching
     - Create the UX around these 2 functions, utilize search inputs, lists, and a view container
+    - District and School selection functionality, display a list, then when selected show more information
 - Please enable Github Pages in your Fork and update the url in your README.md
     - If your repository is not named `react-interview-exercise` you must update [vite.config.ts](vite.config.ts) "base" path
 
