@@ -6,7 +6,7 @@ This coding exercise is meant to allow you to demonstrate creative problem solvi
 - Make any changes to this repository as you see fit
 - Use comments to critique and guide code review
 
-## [Demo](https://characterstrong.github.io/react-interview-exercise/)
+## [Demo](https://ashmartian.github.io/react-interview-exercise/)
 
 ## Overview of this repository
 
