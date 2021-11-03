@@ -45,7 +45,7 @@ const Home: React.FC = () => {
         <Center padding="100px" height="90vh">
             <ScaleFade initialScale={0.9} in={true}>
                 <Card variant="rounded" borderColor="blue">
-                    <Heading>School Data Finder</Heading>
+                    <Heading>Ash's School Data Finder</Heading>
                     <Text>
                         How would you utilize React.useEffect with the searchSchoolDistricts and searchSchools functions? <br />
                         Using <a href="https://chakra-ui.com/docs/principles" target="_blank">Chakra-UI</a> or your favorite UI toolkit, build an interface that allows the user to: <br />
