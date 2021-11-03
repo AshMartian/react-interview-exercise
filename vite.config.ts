@@ -22,6 +22,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: [...readAliasFromTsConfig()] as Alias[]
-  }
+  },
+  base: "/react-interview-exercise/"
 })
 

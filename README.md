@@ -6,11 +6,14 @@ This coding exercise is meant to allow you to demonstrate creative problem solvi
 - Make any changes to this repository as you see fit
 - Use comments to critique and guide code review
 
+## [Demo](https://characterstrong.github.io/react-interview-exercise/)
+
 ## Overview of this repository
 
 - [Vite](https://vitejs.dev/guide/) Typescript React base
 - [Chakra-UI](https://chakra-ui.com/docs/principles) interface styling (feel free to replace with your favorite UI)
 - [Pretty resolver](tsconfig.paths.json), aliased modules for readability: `import Home from "@components/Home"`
+- [Github Actions](.github/workflows/push.yaml) to build and deploy this project to Github Pages (creates `gh-pages` branch)
 
 ### Getting Started
 
@@ -28,6 +31,7 @@ The goal of this exercise is to build a prototype utility that gives users abili
 - Working out of [Home.tsx](/src/components/Home.tsx):
     - Add the needed React `useEffect` statements for district and school searching
     - Create the UX around these 2 functions, utilize search inputs, lists, and a view container
+- Please enable Github Pages in your Fork and update the url in your README.md
 
 ### Considerations
 
